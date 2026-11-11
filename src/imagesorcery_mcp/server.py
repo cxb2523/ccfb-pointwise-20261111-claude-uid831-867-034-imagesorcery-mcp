@@ -45,6 +45,7 @@ from imagesorcery_mcp.tools import (  # noqa: E402
     draw_text,
     fill,
     find,
+    generate_thumbnails,
     metainfo,
     ocr,
     overlay,
@@ -90,6 +91,7 @@ draw_rectangle.register_tool(mcp)
 draw_text.register_tool(mcp)
 fill.register_tool(mcp)
 find.register_tool(mcp)
+generate_thumbnails.register_tool(mcp)
 metainfo.register_tool(mcp)
 ocr.register_tool(mcp)
 overlay.register_tool(mcp)
